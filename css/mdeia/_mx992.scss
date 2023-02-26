@@ -1,0 +1,66 @@
+.header{
+    width: 100%;
+    .header__slaider .title{
+        font-size:  70px;
+        max-width: 400px;
+        line-height: 70px;
+    }
+      /*start---button*/
+      .header__slidere{
+        position: absolute;
+         bottom: 90px;
+     }
+    /*end---button*/
+    .header__slaider  .texte{
+        font-size: 40px;
+    }
+    .header__slidere .nabr{
+        font-size: 0.9rem;
+    }
+    .header__slidere .leb_0,
+    .header__slidere .leb_1,
+    .header__slidere .leb_2,
+    .header__slidere .leba_3{
+        font-size: 0.6rem;
+        bottom: -20px;
+    }
+}
+/*start---design*/
+.design{
+    width: 100%;
+    height: 735px;
+   
+}
+/*end--design*/
+/*start---carusel*/
+.carusel{
+    width: 100%;
+  
+  .carusel__box  .text__carusel{
+        font-size: 0.9rem;
+        max-width: 600px;
+        margin-left: 28%;
+        
+    }
+    .carusel__box  .title__carusel {
+        margin-left: 34%;
+   }
+     
+}
+/*end--carusel*/
+.sec__icon{
+    width: 100%;
+    .slider__carousel  .logos__text__block{
+          margin-top: 1%;
+          margin-left: 0;
+        }
+      .logos{
+          margin-left:  25%;
+      }
+}
+/*people*/
+.people{
+    width: 100%;
+    height: 100%;
+}
+ /*people*/

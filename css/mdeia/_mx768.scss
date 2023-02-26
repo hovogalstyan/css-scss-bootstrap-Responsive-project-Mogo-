@@ -1,0 +1,42 @@
+.header{
+    width: 100%;
+    .header__slaider .title{
+        font-size:  70px;
+        max-width: 400px;
+        line-height: 70px;
+    }
+      /*start---button*/
+      .header__slidere{
+        position: absolute;
+         bottom: 130px;
+     }
+    /*end---button*/
+    .header__slaider  .texte{
+        font-size: 30px;
+    }
+    .header__slidere .nabr{
+        font-size: 0.8rem;
+    }
+    .header__slidere .leb_0,
+    .header__slidere .leb_1,
+    .header__slidere .leb_2,
+    .header__slidere .leba_3{
+        font-size: 0.5rem;
+        bottom: -15px;
+    }
+}
+/*end--icon__logo*/
+ /*end--icon__logo*/
+ .sec__icon{
+    width: 100%;
+      .slider__carousel{
+        width: 100%;
+        .logos__text__block .tewxt__logos{
+            font-size: 1.8rem;
+        }
+        .carousel-item .logos{
+            margin-left: 15%;
+        }
+    }
+
+}

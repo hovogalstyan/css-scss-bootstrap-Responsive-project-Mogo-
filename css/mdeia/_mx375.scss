@@ -1,0 +1,120 @@
+.header{
+    width: 100%;
+    .header__slidere .nabr{
+        font-size: 0.5rem;
+    }
+    .header__slidere .leb_0,
+    .header__slidere .leb_1,
+    .header__slidere .leb_2,
+    .header__slidere .leba_3{
+        font-size: 0.3rem;
+    }
+       /*start---button*/
+       .header__slidere{
+        position: absolute;
+         bottom: 220px;
+     }
+    /*end---button*/
+}
+.section{
+    width: 100%;
+    .sec__text__block  .sec__title{
+        font-size: 2rem;
+    }
+}
+/*start--servis*/
+.Services{
+    width: 100%;
+  .block__col   .col{
+     padding: 0 10px;
+  }
+  .ser__text__block .ser__title{
+      font-size: 2rem;
+  }
+}
+/*wnd--servis*/
+/*start---design*/
+.design{
+    width: 100%;
+    height: 645px;
+    .logo__ser{
+        margin-left: 7%;
+    }
+    .des__text__block .des__title{
+        font-size: 2.2rem;
+    }
+    .logo__ser .img__ser{
+       margin-left: 0;
+    }
+}
+/*end--design*/
+.carusel{
+    width: 100%;
+    .carusel__box{
+        margin-left: 10%;
+    }
+  
+  .carusel__box  .text__carusel{
+        font-size: 0.9rem;
+        max-width: 600px;
+        margin-left: 48%;
+        
+    }
+    .carusel__box  .title__carusel {
+        margin-left: 52%;
+   }
+     
+}
+/*end--carusel*/
+/*start--team*/
+.team{
+    width: 100%;
+    .team__text__block .team__title{
+        font-size: 2rem;
+    }
+}
+/*end--team*/
+.sec__icon{
+    width: 100%;
+    .team__text__block .team__title{
+        font-size: 1.6rem;
+    }
+}
+/*end--sec__icon*/
+.sec__icon{
+    width: 100%;
+      .slider__carousel{
+        width: 100%;
+        margin-left: 10%;
+        .logos__text__block .tewxt__logos{
+            font-size: 1.3rem;
+        }
+        .carousel-item .logos{
+            margin-left: 10%;
+        }
+        .carousel-item .link__logos  {
+          margin-left: 30%;
+       }
+    }
+
+}
+/*people*/
+.people{
+    width: 100%;
+    height: 100%;
+   .col__row .people__logo .people__img {
+        margin-left: 9%;
+    }
+     .team__text__block .team__title {
+         font-size: 1.5rem;
+     }
+}
+ /*people*/
+ /*start--footer*/
+ .footer{
+     width: 100%;
+     .logo__footer__block{
+         margin-left: 10%;
+     }
+ }
+ /*start--footer*/

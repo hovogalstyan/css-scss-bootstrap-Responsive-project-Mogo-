@@ -1,0 +1,38 @@
+.header .carousel-control-next, 
+.header  .carousel-control-prev{
+      display: none;
+}  
+ .header__slidere{
+   position: absolute;
+    bottom: -100px;
+}
+.carousel-indicators [data-bs-target]{
+  width: 15%;
+  margin: 0 5%;
+  position: relative;
+}
+.carousel-indicators [data-bs-target]::before{
+  content: '';
+  width: 60%;
+  height: 3px;
+  background-color: aliceblue;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.carousel-indicators .active{
+  background-color: red;
+}
+ 
+ /*start--carusel*/
+  .carusel .carousel-control-next, 
+.carusel  .carousel-control-prev{
+      display: none;
+}  
+ /*end--karusel*/
+ /*start--slider__carousel*/
+  .slider__carousel .carousel-control-next, 
+ .slider__carousel  .carousel-control-prev{
+       display: none;
+ } 
+ /*end--slider__carousel*/

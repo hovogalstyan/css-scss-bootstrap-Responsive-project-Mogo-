@@ -1,0 +1,43 @@
+.carusel{
+    width: 100%;
+    background-color:#f8f8f8;
+    padding: 15px;
+    .carusel__box{
+     width: 80%;
+      margin: 0 20%;
+     position: relative;
+    .img__carusel{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    } 
+    .text__carusel{
+        max-width: 671px;
+        font-size: 1.3rem;
+        line-height: 36px;
+        color: #999999;
+        font-weight: 300;
+        font-style: italic;
+        font-family: "Roboto";
+        margin-left: 17%;
+    }
+    .title__carusel{
+        font-size: 1.6rem;
+        color: #333333;
+        font-weight: 400;
+        font-family: "Kaushan Script";
+        margin-left: 23%;
+         position: relative;
+        
+    }
+    .title__carusel::before{
+        content: '';
+        position: absolute;
+        width: 8%;
+        background-color: red;
+        height: 3px;
+        left: -8%;
+        top:  63%;
+    }
+}
+}

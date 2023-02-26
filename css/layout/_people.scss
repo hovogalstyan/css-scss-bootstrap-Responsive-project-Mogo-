@@ -1,0 +1,115 @@
+.people{
+    width: 100%;
+    background-image: url(../img/post/a1.png);
+    background-size: cover;
+    height: 850px;
+    padding: 8% 0;
+    .team__text__block{
+        width: 100%;
+        text-align: center;
+        .team__text{
+            font-size: 2rem;
+            color: #333333;
+            font-weight: 400;
+            font-family: "Kaushan Script";
+        }
+        .team__title{
+            font-size: 2.4rem;
+            color: #333333;
+            font-weight: 700;
+            font-family: "Montserrat";
+            text-transform: uppercase;
+        }
+        .team__line{
+            width: 70px;
+            height: 3px;
+            background-color: #333333;
+            margin: 30px auto;
+            position: relative;
+            overflow: hidden;
+            .team__anim::before{
+                content: '';
+                width: 100%;
+                height: 3px;
+                background-color: #fff;
+                position: absolute;
+                 animation: alternatepeo 3s infinite;
+
+            }
+        }
+    }
+    .col__row{
+        width: 100%;
+        display: flex;
+        margin: 3% 0;
+        .people__logo{
+            margin-left: 7%;
+       
+        .people__img{
+           width: 110px;
+           height: 110px;
+           border-radius: 50%; 
+           object-fit: cover;
+           margin-left: 30%;
+            
+        }
+    }
+        .peo__title{
+            font-size: 1rem;
+            color: #333333;
+            font-weight: 400;
+            font-family: "Montserrat";
+            text-transform: uppercase;
+        }
+        .peo__text{
+            font-size: 1rem;
+            line-height: 24px;
+            color: #333333;
+            font-weight: 300;
+            font-style: italic;
+            font-family: "Roboto";
+        }
+        .line{
+            width: 70px;
+            height: 3px;
+            background-color: #333333;
+            position: relative;
+            overflow: hidden;
+            .anime::before{
+                content: '';
+                width: 100%;
+                height: 3px;
+                background-color: #fff;
+                position: absolute;
+                animation: alternateanim 3s infinite;
+            }
+        }
+        .text__peo{
+            max-width: 389px;
+            font-size: 15px;
+            line-height: 24px;
+            color: #999999;
+            font-weight: 400;
+            font-family: "Roboto";
+        }
+        .peopil__block{
+            margin-left: 10%;
+        }
+    }
+}
+@keyframes alternateanim{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+@keyframes alternatepeo{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 100%;
+    }
+}

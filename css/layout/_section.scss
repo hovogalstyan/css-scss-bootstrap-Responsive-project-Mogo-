@@ -1,0 +1,121 @@
+.section{
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    padding: 50px 0;
+    .sec__text__block{
+        width: 100%;
+        text-align: center;
+        .sec__text{
+            font-size: 2rem;
+            color: #333333;
+            font-weight: 400;
+            font-family: "Kaushan Script";
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .sec__title{
+            font-size: 2.2rem;
+            color: #333333;
+            font-weight: 700;
+            font-family: "Montserrat";
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .sec__line{
+            width: 70px;
+            height: 3px;
+            position: relative;
+            overflow: hidden;
+            background-color: #333333;
+            margin: 0 auto;
+            margin-top: 2%;
+        }
+        .sec__anim::before{
+            content: '';
+            width: 100%;
+            height: 3px;
+            position: absolute;
+            background-color: aqua;
+            animation: alternatesec 2s infinite;
+        }
+        .text__one{
+            max-width: 960px;
+            margin: 0 auto;
+            height: 130px;
+            font-size: 0.8rem;
+            line-height: 24px;
+            color: #999999;
+            font-weight: 400;
+            font-family: "Roboto";
+            text-align: center;
+            margin-top: 2%;
+        }
+    }
+    .logo__sec{
+        width: 100%;
+        height: 250px;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.5s;
+        .img__cec{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+             
+        }
+        .hover__sec{
+            width: 100%;
+            height: 250px;
+            position: absolute;
+             bottom: 0;
+             left: 0;
+            background-color: rgba(0,0,0,0.7);
+            opacity: 0;
+            transition: all 0.6s;
+            .link__icon{
+                display: flex;
+                justify-content: center;
+                margin-top: 19%;
+                text-decoration: none;
+                font-size: 3rem;
+                color: #fff;
+            }
+            .hover__text{
+                text-align: center;
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-family: "Montserrat";
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #fff;
+
+            }
+        }
+        
+    }
+    .logo__sec:hover{
+       transform: translate(-10px, 5px);
+       -webkit-box-shadow: 10px 11px 45px 9px rgba(0,0,0,0.59); 
+       box-shadow: 10px 11px 45px 9px rgba(0,0,0,0.59);
+    }
+    .logo__sec:hover .hover__sec{
+        opacity: 1;
+        transform: translate(-10px, 5px);
+    }
+    .logo__sec .link__icon:hover{
+       color: brown;
+    }
+    .logo__sec .hover__text:hover{
+        color: brown;
+     }
+  
+}
+@keyframes alternatesec{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 100%;
+    }
+}

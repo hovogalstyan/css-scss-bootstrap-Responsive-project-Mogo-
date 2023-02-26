@@ -1,0 +1,64 @@
+.design{
+    width: 100%;
+    height: 850px;
+    background-image: url(../img/logo/b1.png); 
+    background-size: cover;
+    position: relative;
+    padding-top: 5%;
+    .des__text__block{
+        width: 100%;
+        .des__text{
+            font-size: 2rem;
+            color: #333333;
+            font-weight: 400;
+            font-family: "Kaushan Script";
+            text-align: center;
+        }
+        .des__title{
+            font-size: 2.5rem;
+            color: #333333;
+            font-weight: 700;
+            font-family: "Montserrat";
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .des__line{
+            width: 70px;
+            height: 3px;
+            background-color: #333333;
+            position: relative;
+            margin: 0 auto;
+            margin-top: 5%;
+            overflow: hidden;
+            .des__anim::after{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 3px;
+                background-color: #fff;
+                animation: alternatedes 3s infinite;
+            }
+        }
+    }
+ .logo__ser{
+      margin: 0 auto;
+      margin-top: 9%;
+      object-fit: cover; 
+
+      .img__ser{
+          width: 100%;
+          height:  550px;
+          margin-left: 10%;
+           
+      }
+ }
+}
+
+@keyframes alternatedes{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 100%;
+    }
+}

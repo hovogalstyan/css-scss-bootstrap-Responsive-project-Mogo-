@@ -1,0 +1,78 @@
+.header{
+    width: 100%;
+    .header__slaider .title{
+        font-size:  50px;
+        max-width: 300px;
+        line-height: 55px;
+    }
+      /*start---button*/
+      .header__slidere{
+        position: absolute;
+         bottom: 180px;
+     }
+    /*end---button*/
+    .header__slaider  .texte{
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .header__slidere .nabr{
+        font-size: 0.7rem;
+    }
+    .header__slidere .leb_0,
+    .header__slidere .leb_1,
+    .header__slidere .leb_2,
+    .header__slidere .leba_3{
+        font-size: 0.4rem;
+        bottom: -10px;
+    }
+}
+/*start---design*/
+.design{
+    width: 100%;
+    height: 695px;
+    .logo__ser{
+        margin-left: 7%;
+    }
+    .logo__ser .img__ser{
+        margin-left: 0;
+     } 
+}
+/*end--design*/
+
+/*start---carusel*/
+.carusel{
+    width: 100%;
+  
+  .carusel__box  .text__carusel{
+        font-size: 0.9rem;
+        margin-left: 32%;
+        
+    }
+    .carusel__box  .title__carusel {
+        margin-left: 38%;
+   }
+     
+}
+/*end--carusel*/
+.sec__icon{
+    width: 100%;
+      .slider__carousel{
+        width: 100%;
+        margin-left: 15%;
+        .logos__text__block .tewxt__logos{
+            font-size: 1.8rem;
+        }
+        .carousel-item .logos{
+            margin-left: 10%;
+        }
+    }
+
+}
+/*people*/
+.people{
+    width: 100%;
+     .team__text__block .team__title {
+         font-size: 2rem;
+     }
+}
+ /*people*/

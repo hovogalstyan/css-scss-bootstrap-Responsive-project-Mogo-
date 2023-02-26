@@ -1,0 +1,223 @@
+ .sec__icon{
+     width: 100%;
+     background-color: #fff;
+     padding-top: 5%;
+     padding-bottom: 8%;
+     .team__text__block{
+         text-align: center;
+          width: 100%;
+          .team__text{
+            font-size: 2rem;
+            color: #333333;
+            font-weight: 400;
+            font-family: "Kaushan Script";
+          }
+          .team__title{
+            font-size: 2.5rem ;
+            color: #333333;
+            font-weight: 700;
+            font-family: "Montserrat";
+            text-transform: uppercase;
+          }
+          .team__line{
+              width: 70px;
+              height: 3px;
+              background-color: #333333;
+              margin: 2% auto ;
+              overflow: hidden;
+              position: relative;
+          }
+        .team__anim::before{
+            content: '';
+            width: 100%;
+            height: 3px;
+            background-color: #fff;
+            position: absolute;
+            animation: alternateicon 3s infinite;
+        }
+    .team__text__one{
+        max-width: 960px;
+        height: 130px;
+        font-size: 15px;
+        line-height: 24px;
+        color: #999999;
+        font-weight: 400;
+        font-family: "Roboto";
+         margin: 6% auto;
+    }
+     }
+     .col{
+         height: 720px;
+       
+     }
+    .icon__logo{
+        width: 100%;
+        position: relative;
+        .icon__img{
+            width: 100%;
+             height: 360px;
+             object-fit: cover;
+        }
+    }
+    .icon__logo__one{
+        height: 100%;
+        position: relative;
+         
+    }
+    .icon__img__one{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+         
+    }
+    .icon__hover{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: rgba(0,0,0,0.6);
+        top: 0;
+        opacity: 0;
+        transition: all 0.8s;
+        
+    .icon__hover__box{
+        display: block;
+        text-align: center;
+        margin-top: 50%;
+        .icon__icon__link{
+            text-decoration: none;
+            font-size: 3rem;
+            color: #fff;
+            transition: all 0.8s;
+        }
+        .icon__hover__text{
+            font-size: 1rem;
+            color: #ffffff;
+            line-height: 10px;
+            font-weight: 400;
+            font-family: "Montserrat";
+            text-transform: uppercase;
+        }
+        .icon__hover__text__one{
+            font-size: 0.8rem;
+            color: #ffffff;
+            font-weight: 300;
+            font-style: italic;
+            font-family: "Roboto";
+            
+        }
+    }
+    .hover__one__icone{
+        width: 100%;
+        height: 350px;
+        background-color: rgba(0,0,0,0.6);
+        position: absolute;
+        top: 0;
+    }
+}
+.icon__hover:hover{
+    opacity: 1;
+}
+.logo{
+    margin: 0;
+}
+.logo{
+    position: relative;
+}
+.icone__hover{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.icone__hover__box{
+    display: block;
+    text-align: center;
+    margin-top: 30%;
+    .icone__icon__link{
+        text-decoration: none;
+        font-size: 3rem;
+        color: #fff;
+        
+    }
+    .icone__hover__text{
+        font-size: 1rem;
+        color: #ffffff;
+        line-height: 10px;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-transform: uppercase;
+    }
+    .icone__hover__text__one{
+        font-size: 0.8rem;
+        color: #ffffff;
+        font-weight: 300;
+        font-style: italic;
+        font-family: "Roboto";
+    }
+}
+.icone__hover:hover{
+    opacity: 1;
+}
+
+/*start__karusel*/
+.slider__carousel{
+    margin-top: 10%;
+    margin-left: 20%;
+    .logos{
+        width: 200px;
+        height:   200px;
+        border-radius: 50%;
+        margin-top: 3%;
+        object-fit: cover;
+        
+    }
+    .logos__text__block{
+      width: 80%;
+      margin: 0 20%;
+      margin-top: -14%;
+    .tewxt__logos{
+        max-width: 770px;
+ 
+        font-size: 24px;
+        line-height: 36px;
+        color: #999999;
+        font-weight: 300;
+        font-style: italic;
+        font-family: "Roboto";
+      
+        text-align: left;
+    }
+    .link__logos{
+        font-size: 2rem;
+        color: #333333;
+        font-weight: 400;
+        font-family: "Kaushan Script";
+        text-decoration: none;
+        margin-left: 10%;
+        position: relative;
+      
+    }
+    .link__logos::after{
+        content: '';
+        position: absolute;
+        width: 60%;
+        height: 3px;
+        background-color: red;
+        left: -60%;
+        top: 65%;
+    }
+}
+}
+
+ }
+ @keyframes  alternateicon{
+     0%{
+         left: -100%;
+     }
+     100%{
+         left: 100%;
+     }
+ }
